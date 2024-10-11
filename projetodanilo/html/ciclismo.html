@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciclismo</title>
+</head>
+<style>
+    style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background: linear-gradient(135deg, #2f2841, #1e3c72, #2f2841);
+        color: white;
+        animation: backgroundAnimation 10s ease-in-out infinite;
+    }
+
+    @keyframes backgroundAnimation {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
+    hr {
+        margin: 10px 0;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    div {
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        margin: 20px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+    }
+
+    div:hover {
+        transform: scale(1.05);
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 3px;
+        color: aquamarine;
+    }
+
+    p {
+        font-size: 1.1em;
+        margin-bottom: 15px;   
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    li:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    a {
+        color: aquamarine;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    a:hover {
+        color: #ffcc00;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: aquamarine;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        color: #2f2841;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #ffcc00;
+        transform: scale(1.1);
+    }
+</style>
+    <div class="Ciclismo">
+        <h1>Clube de Ciclismo</h1>
+        <p>"No nosso clube de ciclismo, a aventura e a superação andam juntas,<br> pedalando por novos desafios e celebrando a liberdade que só o esporte pode proporcionar."</p>
+        <ul>
+            <li><a href="https://sampabikers.com.br/">Sampa Bikers</a></li>
+            <li><a href="https://fugacc.com/">Fuga Ciclismo</a></li>
+            <li><a href="https://clubesantuu.com.br/">Clube Santuu</a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </div>
+</body>
+</html>

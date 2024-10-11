@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Clube Esportivo</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background: linear-gradient(135deg, #2f2841, #1e3c72, #2f2841);
+        color: white;
+        animation: backgroundAnimation 10s ease-in-out infinite;
+    }
+
+    @keyframes backgroundAnimation {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
+    hr {
+        margin: 10px 0;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    div {
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        margin: 20px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+    }
+
+    div:hover {
+        transform: scale(1.05);
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 3px;
+        color: aquamarine;
+    }
+
+    p {
+        font-size: 1.1em;
+        margin-bottom: 15px;   
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    li:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    a {
+        color: aquamarine;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    a:hover {
+        color: #ffcc00;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: aquamarine;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        color: #2f2841;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #ffcc00;
+        transform: scale(1.1);
+    }
+</style>
+<body>
+    <div>
+        <h1>Clubes de Artes Marciais</h1>
+        <p>"No nosso clube de artes marciais, cada treino é uma jornada de disciplina,<br> autocontrole e superação, em busca da perfeição técnica."</p>
+        <ul>
+            <li><a href="https://www.academiabrasiankombat.com.br/">Academia Brasiankombat</a></li>
+            <li><a href="https://www.karatemushinkan.com.br/">Academia Mushinkan Karate</a></li>
+            <li><a href="https://www.graciebarra.com/">Gracie Barra Jiu-Jitsu</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <h1>Clubes de Tênis</h1>
+        <p>"Nosso clube de tênis oferece um ambiente competitivo e amigável,<br> onde cada partida é uma oportunidade de crescer e evoluir no esporte."</p>
+        <ul>
+            <li><a href="https://www.clubedetenis.com.br/">Clube de Tênis SP</a></li>
+            <li><a href="https://www.tenispaulista.com.br/">Tênis Paulista</a></li>
+            <li><a href="https://www.clubedetenisrj.com.br/">Clube de Tênis RJ</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <h1>Clubes de Basquete</h1>
+        <p>"No nosso clube de basquete, o espírito de equipe e a paixão pelo esporte<br> são os pilares de cada jogo e treino, sempre em busca da vitória."</p>
+        <ul>
+            <li><a href="https://www.clubedobasquete.com.br/">Clube de Basquete Brasil</a></li>
+            <li><a href="https://www.nba.com/brazil/">NBA Brasil</a></li>
+            <li><a href="https://www.clubedobasquetefor.com.br/">Clube de Basquete Fortaleza</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <h1>Clubes de Atletismo</h1>
+        <p>"Nosso clube de atletismo desafia os limites da velocidade e resistência,<br> com atletas dedicados a ultrapassar barreiras e conquistar novos recordes."</p>
+        <ul>
+            <li><a href="https://www.clubedeatletismo.com.br/">Clube de Atletismo SP</a></li>
+            <li><a href="https://atletismo.org.br/">Federação Brasileira de Atletismo</a></li>
+            <li><a href="https://www.clubedatletismobrasil.com.br/">Clube de Atletismo Brasil</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <h1>Clubes de Esgrima</h1>
+        <p>"Nosso clube de esgrima oferece um ambiente único de estratégia,<br> técnica e reflexos rápidos, onde cada toque é uma vitória da mente e do corpo."</p>
+        <ul>
+            <li><a href="https://www.clubedeesgrima.com.br/">Clube de Esgrima SP</a></li>
+            <li><a href="https://www.esgrima.org.br/">Federação Brasileira de Esgrima</a></li>
+            <li><a href="https://www.esgrimasul.com.br/">Clube de Esgrima Sul</a></li>
+        </ul>
+    </div>
+</body>
+</html>
